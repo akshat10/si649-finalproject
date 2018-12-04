@@ -65,3 +65,107 @@ p{
     width: 100%;
     height: 100%;
 }
+
+
+.desc {
+    font-family: "Mercury SSm A", "Mercury SSm B";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0 auto;
+}
+
+.centered{
+    text-align:center;
+}
+
+.button {
+    width: 90px;
+    padding: 5px 5px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-size: .9em;
+    border: 1px solid #e0e0e0;
+    float: left;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #e0e0e0;
+}
+
+.button.current {
+    background: #000;
+    color: #fff;
+}
+
+#n {
+    font-size: 3.0em;
+}
+
+svg
+{
+    position: relative;
+    padding: 5px;
+}
+
+.bar {
+    fill: orange;
+  }
+
+.label
+{
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#chart1
+{
+        text-align: center;
+}
+#chart1 h6
+{
+    display: block;
+    height: 3000px;
+}
+
+
+.chartholder{
+    width: 20%;
+    text-align:center;
+    display: inline-block;
+    padding-bottom:10px;
+    padding: 0px;
+}
+
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #069ea8;
+    padding: 14px;
+    text-align: center;
+}
+.highlight{
+   opacity: 1 !important;
+}
+
+
+.outside{
+    display: grid;
+    justify-items: start;
+    padding-left: 5%;
+    align-items: center;
+}
+
+select {
+
+    font-size: 1.6rem;
+ }
+ 
